@@ -181,6 +181,9 @@ CONTAINS
 #endif
          &      ff_e(0:jpi+1,0:jpj+1) , fr_e(0:jpi+1,0:jpj+1)  ,   &
          &      tt_e(0:jpi+1,0:jpj+1) , ssh_e(0:jpi+1,0:jpj+1) ,   &
+!+seg
+         &      ss_e(0:jpi+1,0:jpj+1) ,                            &
+!-seg
          &      hicth(0:jpi+1,0:jpj+1),                            &
          &      first_width(nclasses) , first_length(nclasses) ,   &
          &      src_calving (jpi,jpj) ,                            &
